@@ -1,0 +1,54 @@
+body {
+    font-family: 'Monaco', monospace;
+    color: #ffffff;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .window {
+    max-width: 800px;
+    background-color: #000000;
+    border: 1px solid #c5c8c6;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+    height: 60vh;
+
+  }
+  .title-bar {
+    background-color: #333333;
+    padding: 5px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-radius: 5px 5px 0 0;
+  }
+  .title {
+    color: #ffffff;
+    font-size: 14px;
+  }
+  .buttons {
+    display: flex;
+    position: absolute;
+    left: 10px;
+  }
+  .button {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 5px;
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+  }
+  .close { background-color: #ff605b; }
+  .minimize { background-color: #ffbd44; }
+  .maximize { background-color: #00ca4e; }
+  .terminal {
+    padding: 10px;
+  }
+  .prompt {
+    font-weight: bold;
+    color: #00ff00;
+  }
