@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>AbdulKhaliq Alshehri</title>
   <link rel='stylesheet' type='text/css' media='screen' href='assets/css/style.css'>
+  <link rel="icon" type="image/png" href="assets/images/favicon.png">
 </head>
 <body>
     <div class="window">
@@ -17,15 +18,33 @@
         </div>
         <span class="title">AbdulKhaliq Alshehri</span>
       </div>
-      <div class="terminal">
-        <p><span class="prompt">[visitor@abdulkhaliq ~]$</span> whoami</p>
-        <p>AbdulKhaliq, the coder who talks to computers better than humans.</p>
-        <p><span class="prompt">[visitor@abdulkhaliq ~]$</span> cat skill.txt</p>
-        <p>Turning coffee into code since 2017</p>
-        <p><span class="prompt">[visitor@abdulkhaliq ~]$</span> sudo su -</p>
-        <p>[visitor] can't control my life before buying me a coffee! This incident will be reported.</p>
-        <p><span class="prompt">[visitor@abdulkhaliq ~]$</span> _</p>
-      </div>
+      <main class="terminal">
+        <div class="welcoming">
+          <p>Welcome to AlshehriOS 1.1 (GNU/Human 2023.04 x86_64)</p>
+          <div class="contact-info">
+            <p> * Projects: <a href="https://github.com/abdulkhaliqmoh" target="_blank">https://github.com/abdulkhaliqmoh</a></p>
+            <p> * Contact: <a href="https://www.linkedin.com/in/abdulkhaliqmoh" target="_blank">https://www.linkedin.com/in/AbdulkhaliqMoh</a></p></p>
+          </div>
+
+          <p id="dev-info-date"></p>
+          <div class="dev-info">
+            <p> * Coffee consumption: 76% of 12 cups</p>
+            <p> * Brain RAM usage: 89%</p>
+            <p> * Alshehri status:  Coding...</p>
+          </div>
+          <div class="session">
+            <p id="last-login"></p>
+          </div>
+        </div>
+        <div class="prompt"><span class="user">[visitor@abdulkhaliq ~]$</span> whoami</div>
+        <div class="output">AbdulKhaliq, the coder who talks to computers better than humans.</div>
+        <div class="prompt"><span class="user">[visitor@abdulkhaliq ~]$</span> cat best_skill.txt</div>
+        <div class="output">Turning coffee into code since 2017</div>
+        <div class="prompt"><span class="user">[visitor@abdulkhaliq ~]$</span> sudo su -</div>
+        <div class="output">[visitor] can't control my life before buying me a coffee! This incident will be reported.</div>
+        <div class="prompt"><span class="user">[visitor@abdulkhaliq ~]$</span> _</div>
+      </main>
     </div>
+    <script src="assets/js/main.js"></script>
   </body>
 </html>

@@ -8,12 +8,12 @@ body {
     align-items: center;
   }
   .window {
-    max-width: 800px;
     background-color: #000000;
     border: 1px solid #c5c8c6;
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
     border-radius: 5px;
-    min-height: 60vh;
+    min-height: 67vh;
+    min-width: 60%;
 
   }
   .title-bar {
@@ -48,7 +48,23 @@ body {
   .terminal {
     padding: 10px;
   }
-  .prompt {
+  .user {
     font-weight: bold;
     color: #00ff00;
+  }
+
+  .terminal div{
+    margin-top: 1px;
+  }
+
+  .welcoming div p{
+    margin: 0 !important;
+  }
+
+  .session{
+    margin-top: 30px !important;
+  }
+
+  a{
+    color: white;
   }
